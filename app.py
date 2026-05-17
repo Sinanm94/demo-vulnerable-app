@@ -15,3 +15,4 @@ def process_request(request):
     # No input sanitization - violates sanitize_inputs rule
     data = request.args.get('user_id')
     return get_user(data)
+    #IBM bob
