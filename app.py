@@ -16,3 +16,4 @@ def process_request(request):
     data = request.args.get('user_id')
     return get_user(data)
     #IBM bob
+# BobGuard Demo Trigger
